@@ -1,10 +1,19 @@
-import java.io.FileInputStream;
+// import java.io.FileInputStream;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
 public class BOJ_1158_신민진 {
     public static void main(String[] args) throws Exception {
+        
+        /* 
+         * - offer(): 큐 맨 끝에 값 삽입
+         *            값 추가 성공시 true, 실패 시 false 반환
+         * 
+         * - poll() : 큐 맨 앞에 있는 값 반환 후 삭제
+         *            큐가 비어있을 경우 null 반환
+         */
+        
         // 테스트 케이스 확인(로컬)
         // System.setIn(new FileInputStream("input.txt"));
         Scanner sc = new Scanner(System.in);
@@ -15,14 +24,6 @@ public class BOJ_1158_신민진 {
         // 큐 선언
         Queue<Integer> queue = new LinkedList<Integer>();
 
-        /* 
-         * - offer(): 큐 맨 끝에 값 삽입
-         *            값 추가 성공시 true, 실패 시 false 반환
-         * 
-         * - poll() : 큐 맨 앞에 있는 값 반환 후 삭제
-         *            큐가 비어있을 경우 null 반환
-         */
-        
         for (int i = 1 ; i <= N; i++) {
             queue.offer(i);
         } // 1 부터 N 까지 큐에 값 삽입
