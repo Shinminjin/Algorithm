@@ -5,13 +5,13 @@ import java.util.Scanner;
 
 public class BOJ_1158_신민진 {
     public static void main(String[] args) throws Exception {
-        
+
         /* 
-         * - offer(): 큐 맨 끝에 값 삽입
-         *            값 추가 성공시 true, 실패 시 false 반환
+         *  offer(): 큐 맨 끝에 값 삽입
+         *           값 추가 성공시 true, 실패 시 false 반환
          * 
-         * - poll() : 큐 맨 앞에 있는 값 반환 후 삭제
-         *            큐가 비어있을 경우 null 반환
+         *  poll():  큐 맨 앞에 있는 값 반환 후 삭제
+         *           큐가 비어있을 경우 null 반환
          */
         
         // 테스트 케이스 확인(로컬)
@@ -51,3 +51,4 @@ public class BOJ_1158_신민진 {
 
     }
 }
+
