@@ -15,19 +15,19 @@ public class BOJ_2075_최아현 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 
 		PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder()); // 우선순위 큐 내림차순
         
-        int N = Integer.parseInt(br.readLine()); 
-        
-        for(int i=0; i<N; i++) {
-        	StringTokenizer st = new StringTokenizer(br.readLine());
-        	for(int j=0;j<N;j++) {
-        		int num = Integer.parseInt(st.nextToken());
-        		pq.add(num);
-        	}
-        }
-        for(int i=0; i<N-1; i++) {
-        	pq.remove();
-        }
-        System.out.print(pq.peek()); 
+		int N = Integer.parseInt(br.readLine()); 
+
+		for(int i=0; i<N; i++) {
+			StringTokenizer st = new StringTokenizer(br.readLine());
+			for(int j=0;j<N;j++) {
+				int num = Integer.parseInt(st.nextToken());
+				pq.add(num);
+			}
+		}
+		for(int i=0; i<N-1; i++) {
+			pq.remove();
+		}
+		System.out.print(pq.peek()); 
 	}
 	
 }
