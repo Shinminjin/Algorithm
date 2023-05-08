@@ -9,6 +9,7 @@ import java.util.StringTokenizer;
 
 public class BOJ_14425_신민진 {
     public static void main(String[] args) throws FileNotFoundException, IOException{
+        
         // 테스트 케이스 확인(로컬)
         // System.setIn(new FileInputStream("input.txt"));
 
@@ -31,9 +32,10 @@ public class BOJ_14425_신민진 {
                 cnt = cnt + 1;
             }
         }
-        
+
         br.close();
         System.out.println(cnt);
+        
     }
     
 }
