@@ -2,7 +2,7 @@ import java.io.*;
 
 public class BOJ_13022_신민진 {
     public static void main(String[] args) throws Exception{
-        
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String checkStr = br.readLine();
         char[] arrayStr = checkStr.toCharArray(); // 체크 편하게
@@ -14,12 +14,11 @@ public class BOJ_13022_신민진 {
 
         for (int i = 0; i < arrayStr.length; i++) {
             if (wolf == 1 && arrayStr[i] == 'w' && i < arrayStr.length-1) {
-                // w
                 if (arrayStr[i+1] == 'w') { cntFlag ++; } 
                 else if (arrayStr[i+1] == 'o') { cntFlag ++; wolf = 2; } 
                 else { result = false; break; }
-            } else if (wolf == 2 && arrayStr[i] == 'o' && i < arrayStr.length-1) {
-                // o
+            }
+            else if (wolf == 2 && arrayStr[i] == 'o' && i < arrayStr.length-1) {
                 if (arrayStr[i+1] == 'o') { checkCnt++; } 
                 else if (arrayStr[i+1] == 'l') {
                     checkCnt++;
@@ -28,8 +27,8 @@ public class BOJ_13022_신민진 {
                     checkCnt = 0;
                 }
                 else { result = false; break; }
-            } else if (wolf == 3 && arrayStr[i] == 'l' && i < arrayStr.length-1) {
-                // l
+            }
+            else if (wolf == 3 && arrayStr[i] == 'l' && i < arrayStr.length-1) {
                 if (arrayStr[i+1] == 'l') { checkCnt++; } 
                 else if (arrayStr[i+1] == 'f') {
                     checkCnt++;
@@ -38,8 +37,8 @@ public class BOJ_13022_신민진 {
                     checkCnt = 0;
                 } 
                 else { result = false; break; }
-            } else if (wolf == 4 && arrayStr[i] == 'f') {
-                // f
+            }
+            else if (wolf == 4 && arrayStr[i] == 'f') {
                 if (i == arrayStr.length - 1) {
                     checkCnt++;
                     if (cntFlag == checkCnt) { result = true; } // 정답인 케이스
@@ -53,7 +52,7 @@ public class BOJ_13022_신민진 {
                     cntFlag = 0;
                 }
                 else { result = false; break;}
-            } 
+            }
             else { result = false; break; }
         }
 
