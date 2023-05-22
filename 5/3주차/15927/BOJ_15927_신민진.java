@@ -2,7 +2,7 @@ import java.io.*;
 
 public class BOJ_15927_신민진 {
     public static void main(String[] args) throws Exception{
-        
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String str = br.readLine();
 
@@ -25,7 +25,7 @@ public class BOJ_15927_신민진 {
         } else {
             // 팰린드롬 일 때, 모두 같은문자인지 체크
             if (strLen - (strLen - str.replace(String.valueOf(arrayStr[0]), "").length()) == 0) {
-                System.out.println("-1");
+                System.out.println(-1);
             } else {
                 System.out.println(strLen - 1);
             }
