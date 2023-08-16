@@ -5,10 +5,10 @@ class Solution {
 
         int answer = 0; // 회원등록 날짜
         
-        Map<String, Integer> want_Number_map = new HashMap<>(); // 원하는 제품의 수
+        Map<String, Integer> want_number_map = new HashMap<>(); // 원하는 제품의 수
 
         for (int i = 0; i < want.length; i++) {
-            want_Number_map.put(want[i], number[i]);
+            want_number_map.put(want[i], number[i]);
         }
 
         // 10일 단위로 discount 배열 자르기
@@ -19,7 +19,7 @@ class Solution {
                 discount_10day.put(discount[j], discount_10day.getOrDefault(discount[j], 0) + 1);
             }
 
-            if (want_Number_map.equals(discount_10day)) answer++;
+            if (want_number_map.equals(discount_10day)) answer++;
         }
         
         return answer;
