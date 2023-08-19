@@ -1,8 +1,9 @@
 import java.util.*;
 
 class Solution {
-  public int solution(String[] want, int[] number, String[] discount) {
-
+    
+    public int solution(String[] want, int[] number, String[] discount) {
+        
         int answer = 0; // 회원등록 날짜
         
         Map<String, Integer> want_number_map = new HashMap<>(); // 원하는 제품의 수
