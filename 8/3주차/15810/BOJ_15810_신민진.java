@@ -32,14 +32,15 @@ public class BOJ_15810_신민진 {
         st = new StringTokenizer(br.readLine()); // 스태프들이 풍선을 만드는데 걸리는 시간
 
         for(int i=0; i<N; i++) {
-            int staffMakingTime = Integer.parseInt(st.nextToken()); // 각 스태프들이 풍선 하나를 만드는 데 걸리는 시간
+            int staffMakingTime = Integer.parseInt(st.nextToken()); // 각 스태프가 풍선 하나를 만드는 데 걸리는 시간
             pq.offer(new Pair(staffMakingTime, staffMakingTime));
         }
 
-        int total = 0; // 풍선이 만들어지는 시간합
+        int total = 0; // 만들어지는 풍선개수 초기화
         while(!pq.isEmpty()) {
             Pair pair = pq.poll();
             total++;
+            //풍선개수가 M이 될 때의 최소시간
             if(total == M) {
                 System.out.println(pair.finishTime);
                 break;
