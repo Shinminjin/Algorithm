@@ -9,8 +9,8 @@ public class BOJ_2422_신민진 {
     static boolean[][] noMixed; // 섞어먹으면 안되는 조합
 
     // 조합관련 변수
-    static int icecream[] = new int[3]; // 아이스크림 3가지
-    static boolean[] visited; // 조합순회 시, 선택여부 알려줌.
+    static int icecream[] = new int[3]; // 아이스크림 3가지(조합 순회시)
+    static boolean[] visited; // 조합순회 시, 선택여부 알려줌
     static int result; // 최종 결과
 
     public static void main(String[] args) throws IOException{
@@ -38,7 +38,7 @@ public class BOJ_2422_신민진 {
     private static void combination(int cnt, int idx) {
         if(cnt == 3) {
             // 섞어먹어도 괜찮은 조합이면 result에 합산.
-            if(!isNotMixed()) { result++; }
+            if(!isNoMixed()) { result++; }
             return;
         }
 
@@ -56,7 +56,7 @@ public class BOJ_2422_신민진 {
     }
 
     // 섞어먹으면 안되는 조합인지 체크
-    private static boolean isNotMixed() {
+    private static boolean isNoMixed() {
         int a = icecream[0];
         int b = icecream[1];
         int c = icecream[2];
