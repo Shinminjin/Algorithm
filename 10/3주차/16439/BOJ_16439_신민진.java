@@ -9,7 +9,6 @@ public class BOJ_16439_신민진 {
     static int[][] preference; // 치킨선호도
 
     // 조합관련 변수
-    static int[] chicken; // 3가지 치킨 조합
     static boolean[] visit;
     static int maxSum = Integer.MIN_VALUE; // 만족도합 최댓값
 
