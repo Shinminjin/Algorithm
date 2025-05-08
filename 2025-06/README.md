@@ -13,6 +13,6 @@
 <br />
 
 | 날짜 | 01 | 02 | 03 | 04 | 05 | 06 | SQL1 | SQL2 |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 6월 1주차 | [수 이어 쓰기 2](https://www.acmicpc.net/problem/1790) | [감소하는 수](https://www.acmicpc.net/problem/1038) | [조합 0의 개수](https://www.acmicpc.net/problem/2004) | [멀티버스 Ⅱ](https://www.acmicpc.net/problem/18869) | [용액](https://www.acmicpc.net/problem/2467) | [합이 0](https://www.acmicpc.net/problem/3151) | [특정 기간동안 대여 가능한 자동차들의 대여비용 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/157339) | [주문량이 많은 아이스크림들 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/133027) |
 | 6월 3주차 | [List of Unique Numbers](https://www.acmicpc.net/problem/13144) | [수 고르기](https://www.acmicpc.net/problem/2230) | [겹치는 건 싫어](https://www.acmicpc.net/problem/20922) | [수강신청](https://www.acmicpc.net/problem/13414) | [패션왕 신해빈](https://www.acmicpc.net/problem/9375) | [나무 자르기](hhttps://www.acmicpc.net/problem/2805) | [그룹별 조건에 맞는 식당 목록 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/131124) | [5월 식품들의 총매출 조회하기](https://school.programmers.co.kr/learn/courses/30/lessons/131117) |

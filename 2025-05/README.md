@@ -13,6 +13,6 @@
 <br />
 
 | 날짜 | 01 | 02 | 03 | 04 | 05 | 06 | SQL1 | SQL2 |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 5월 2주차 | [빈도 정렬](https://www.acmicpc.net/problem/2910) | [먹을 것인가 먹힐 것인가](https://www.acmicpc.net/problem/7795) | [LCS](https://www.acmicpc.net/problem/9251) | [동전](https://www.acmicpc.net/problem/9084) | [내리막 길](https://www.acmicpc.net/problem/1520) | [가장 큰 정사각형](https://www.acmicpc.net/problem/1915) | [없어진 기록 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/59042) | [있었는데요 없었습니다](https://school.programmers.co.kr/learn/courses/30/lessons/59043) |
 | 5월 4주차 | [가장 큰 증가하는 부분 수열](https://www.acmicpc.net/problem/11055) | [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) | [동전 1](https://www.acmicpc.net/problem/2293) | [선 긋기](https://www.acmicpc.net/problem/2170) | [수 묶기](https://www.acmicpc.net/problem/1744) | [잃어버린 괄호](https://www.acmicpc.net/problem/15415) | [상품을 구매한 회원 비율 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131534) | [FrontEnd 개발자 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/276035) |

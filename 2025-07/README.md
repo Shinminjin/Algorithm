@@ -8,5 +8,5 @@
 <br />
 
 | 날짜 | 01 | 02 | 03 | 04 | 05 | 06 | SQL1 | SQL2 |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 7월 1주차 | [문제 추천 시스템 Version 1](https://www.acmicpc.net/problem/21939) | [홍익 투어리스트](https://www.acmicpc.net/problem/23326) | [문제 추천 시스템 Version 2](https://www.acmicpc.net/problem/21944) | [가운데를 말해요](https://www.acmicpc.net/problem/1655) | [컵라면](https://www.acmicpc.net/problem/1781) | [파일 합치기 3](https://www.acmicpc.net/problem/13975) | [물고기 종류 별 대어 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/293261) | [중복 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/59408) |
